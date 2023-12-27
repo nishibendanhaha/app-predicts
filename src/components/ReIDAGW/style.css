@@ -1,0 +1,14 @@
+.mainLeft {
+    color: brown;
+    font-size: 24px;
+    text-align: unset;
+    max-width: '100%';
+    padding-right: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
