@@ -8,13 +8,13 @@ cd app-predicts
 npm install
 npm start
 ```
-### 注意： 如果项目启动报错，显示找不到某个包的时候，可以手动使用 npm install 需要安装的包名 --save  安装的同时，将信息写入package.json中 （有的依赖包可能在安装包的时候并未加“--save”保存到package.json中）
+##### 注意： 如果项目启动报错，显示找不到某个包的时候，可以手动使用“npm install 需要安装的包名 --save”安装的同时，将信息写入package.json中 （有的依赖包可能在安装包的时候并未加“--save”保存到package.json中）
 ## 使用界面
 ReID AGW模型使用界面如下所示：
 <img width="1434" alt="image" src="https://github.com/nishibendanhaha/app-predicts/assets/75249365/40eeccae-cd4a-478d-b723-a7ed6ddcf5d7">
 Clip模型使用界面如下所示：
 <img width="1430" alt="image" src="https://github.com/nishibendanhaha/app-predicts/assets/75249365/58b96b32-6134-40e1-80af-0701d56809e4">
-### 注意：目前展示案例基于query gallery为 https://github.com/nishibendanhaha/app-web-services/tree/main/test_images 中的少量图片产生
+##### 注意：目前展示案例基于query gallery为 https://github.com/nishibendanhaha/app-web-services/tree/main/test_images 中的少量图片产生
 
 
 # Getting Started with Create React App
