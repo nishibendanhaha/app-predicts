@@ -9,7 +9,8 @@ npm install
 npm start
 ```
 ##### 注意： 如果项目启动报错，显示找不到某个包的时候，可以手动使用“npm install 需要安装的包名 --save”安装的同时，将信息写入package.json中 （有的依赖包可能在安装包的时候并未加“--save”保存到package.json中）
-## 使用界面
+## 使用案例
+使用案例和更详细的使用说明手册，参考 https://zhuanlan.zhihu.com/p/674938131?
 ReID AGW模型使用界面如下所示：
 <img width="1434" alt="image" src="https://github.com/nishibendanhaha/app-predicts/assets/75249365/40eeccae-cd4a-478d-b723-a7ed6ddcf5d7">
 Clip模型使用界面如下所示：
