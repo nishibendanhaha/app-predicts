@@ -1,5 +1,5 @@
 # app-predicts
-repo为 https://github.com/nishibendanhaha/app-web-services 配套的前端UI界面，需要和后端web服务一起配套使用，用于展示[行人重识别模型AGW](https://github.com/mangye16/ReID-Survey/tree/master)/Clip大模型等AI模型预测web服务的结果。
+repo为 https://github.com/nishibendanhaha/app-web-services 配套的前端UI界面，需要和后端web服务一起配套使用，用于展示[行人重识别模型AGW](https://github.com/mangye16/ReID-Survey/tree/master)/Clip大模型等模型的预测结果。
 ## 使用方法
 repo含有项目需要的依赖包文件package.json
 ```
