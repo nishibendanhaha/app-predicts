@@ -1,3 +1,8 @@
+<video width="320" height="240" controls>
+  <source src="videos/a.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 # app-predicts
 repo为 https://github.com/nishibendanhaha/app-web-services 配套的前端UI界面，需要和后端web服务一起配套使用，用于展示[行人重识别模型AGW](https://github.com/mangye16/ReID-Survey/tree/master)/Clip大模型等模型的预测结果。
 ## 使用方法
