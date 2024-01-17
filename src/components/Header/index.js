@@ -5,6 +5,7 @@ import { Breadcrumb, Layout, Menu } from 'antd';
 import { Route, Link, Routes, BrowserRouter as Router } from 'react-router-dom';
 import ReIDAGW from '../ReIDAGW'
 import TetoImClip from '../TetoImClip';
+import ReIDAITL from '../ReIDAITL';
 
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -46,8 +47,11 @@ const Exp = () => (
                                 width: '100%'
                             }}
                         >
-                            <Menu.SubMenu title='ReID' key='ReID' icon={<LaptopOutlined />}>
+                            <Menu.SubMenu title='PicReID' key='PicReID' icon={<LaptopOutlined />}>
                                 <Menu.Item key='ReIDAGW'><Link to='/ReIDAGW'>ReIDAGW</Link></Menu.Item>
+                            </Menu.SubMenu>
+                            <Menu.SubMenu title='VideoReID' key='VideoReID' icon={<LaptopOutlined />}>
+                                <Menu.Item key='ReIDAITL'><Link to='/ReIDAITL'>ReIDAITL</Link></Menu.Item>
                             </Menu.SubMenu>
                             <Menu.SubMenu title='Text-to-Image' key='Text-to-Image' icon={<LaptopOutlined />}>
                                 <Menu.Item key='TetoImClip'><Link to='/TetoImClip'>TetoImClip</Link></Menu.Item>
@@ -66,6 +70,7 @@ const Exp = () => (
                         <Routes>
                             <Route path="/" element={<ReIDAGW />} />
                             <Route path='/ReIDAGW' element={<ReIDAGW />} />
+                            <Route path='/ReIDAITL' element={<ReIDAITL />} />
                             <Route path='/TetoImClip' element={<TetoImClip />} />
                         </Routes>
                         {/* <Files /> */}
