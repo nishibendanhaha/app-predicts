@@ -1,7 +1,8 @@
 
 
 
-https://github.com/nishibendanhaha/app-predicts/assets/75249365/bc4a13f4-cbe1-408b-9ccd-d8224b324436
+https://github.com/nishibendanhaha/app-predicts/assets/75249365/082aeea8-90f2-4112-b63b-cdf986c81e26
+
 
 
 # app-predicts
