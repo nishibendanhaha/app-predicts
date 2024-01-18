@@ -1,4 +1,8 @@
-<video src="/videos/a.mp4" position= "absolute" width="100%" height="100%" controls="controls"></video>
+
+
+
+https://github.com/nishibendanhaha/app-predicts/assets/75249365/bc4a13f4-cbe1-408b-9ccd-d8224b324436
+
 
 # app-predicts
 repo为 https://github.com/nishibendanhaha/app-web-services 配套的前端UI界面，需要和后端web服务一起配套使用，用于展示[行人重识别模型AGW](https://github.com/mangye16/ReID-Survey/tree/master)/Clip大模型等模型的预测结果。
